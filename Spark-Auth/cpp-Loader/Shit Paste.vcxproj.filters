@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="api.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http.cpp">
+      <Filter>API\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http\utils.cpp">
+      <Filter>API\http</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>API\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="others.h">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="protection.cpp">
+      <Filter>Extras\protection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http.h">
+      <Filter>API\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http\utils.h">
+      <Filter>API\http</Filter>
+    </ClInclude>
+    <ClInclude Include="api_utils.h">
+      <Filter>API\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>API\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="caesar.h">
+      <Filter>API\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>API\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.h">
+      <Filter>Extras\protection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{d0abde19-c1c4-479b-824c-27dd019f264b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\http">
+      <UniqueIdentifier>{c7c1f224-9a10-462a-b83d-aa591cfba682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\extras">
+      <UniqueIdentifier>{e50522d2-0f7b-4610-a2bc-110a4ed01434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{2b5904c5-3802-4d6e-94cb-f648161fa91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras\protection">
+      <UniqueIdentifier>{c93eca46-d538-489f-bff1-43525c0e07e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
